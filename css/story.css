@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.body-2{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family:'Montserrat', sans-serif;
+}
+.btn{
+    width:200px;
+    height: 50px;
+    background-color: #DC3545;
+    color:#FFFFFF;
+    border: #DC3545;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight:600;
+    transition: 2s;
+}
+.btn:hover{
+    background-color: red;
+   
+    }
+.container{
+    display:flex;
+}
+.a-1{
+    width:25%;
+    height:100px;
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color:#000000;
+    font-size: 26px;
+    font-weight:900;
+}
+.a-2{
+    width:50%;
+    height:100px;
+   
+}
+.a-3{
+    width:25%;
+    height:100px;
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    line-height:100px;
+
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color:#717275;
+    font-size: 18px;
+    font-weight:600;
+}
+/* 1 */
+/* 2 */
+.container-2{
+    background-image:Linear-gradient(to top,rgb(0,0,0),transparent 100%), url(../images/header/briana-tozour-V_Nkf1E-vYA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:605px;
+    display:flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.b-1{
+    color:#FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    font-weight:900;
+    
+}
+.b-2{
+    color:#FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight:400;
+}
+/* 3 */
+.container-3{
+    width:100%;
+    height:248px;
+   
+    margin-top:128px;
+    margin-bottom:128px;
+    display:flex;
+    justify-content: space-between;
+}
+.ifaz{
+    width:50%;
+   
+    height:248px;
+    position:relative;
+    left:100px;
+}
+.uio{
+    width:45%;
+  
+    height:248px;
+    position:relative;
+    right:100px;
+}
+.uio-p{
+    color:#717275;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight:400; 
+}
+
+.bt{
+    width:200px;
+    height: 50px;
+    background-color: #212329;
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight:400; 
+    transition: 1s;
+    border:#DC3545;
+    border-radius:8px;
+    position: relative;
+    top:30px;
+}
+.bt:hover{
+    background-color: #DC3545;
+    color:#717275;
+}
+.but{
+    width:70px;
+    height: 50px;
+    background-color: #DC3545;
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight:400; 
+    transition: 1s;
+    border: #DC3545;
+    border-radius: 8px;
+    top:30px;
+    position: relative;
+
+}
+.but:hover{
+    background-color: #717275;
+    color:#DC3545;
+}
+
+/* 4 */
+.container-4{
+width:100%;
+height:650px;
+background-color:#F9F9F9;
+position:relative;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+.vio-ewq{
+    position:relative;
+    left:100px;
+    right:100px;
+    width:84%;
+    height:600px; 
+}
+.head-1{
+    font-size:64px;
+    font-weight: 900;
+}
+.pic-1{
+    background-image: url(../images/team/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg);
+    width:28%;
+    height:400px;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic-2{
+    background-image: url(../images/team/nicolas-horn-MTZTGvDsHFY-unsplash.jpg);
+    width:28%;
+    height:400px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic-3{
+    background-image: url(../images/team/rc-cf-FMh5o5m5N9E-unsplash.jpg);
+    width:28%;
+    height:400px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ssw{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    top:70px;
+}
+
+.to{
+    position:relative;
+    top:410px;
+    color: #212329;
+}
+.top{
+    position:relative;
+    top:418px;
+    color: #717275;
+}
+/* 5 */
+.container-5{
+    width:100%;
+    height: 600px;
+    background-color: #F9F9F9;
+    display:flex;
+    justify-content: space-between;
+}
+
+.ki{
+border-radius: 50%;
+width:450px;
+height:450px;
+}
+.opp-img99{
+width:40%;
+left:10%;
+
+top:100px;
+position:relative;
+}
+
+.opp-text100{
+    width:40%;
+    right:10%;
+   
+    position:relative;
+    top:100px;
+    display: flex;
+    align-items: center;
+    }
+.oiu{
+color:#212329;
+font-size: 35px;
+font-weight: 900;
+
+}    
+.uuu{
+color:#717275;
+font-size:20px;
+font-weight:400;
+
+}
+#email{
+    width:120%;
+    height:35px;
+    font-size:18px;
+    padding:5px;
+   
+}
+.popo{
+    width:125%;
+    height:50px;
+    font-size:18px;
+    padding:5px;
+    color:#FFFFFF;
+    background-color: #212329; 
+    transition:1s; 
+    border:1px solid #212329;
+}
+.popo:hover{
+background-color:#F44749;
+color:#FFFFFF;
+border:1px solid #F44749;
+}
+.last{
+    color:#717275;
+    font-size:14px;
+
+}
+
+
+.footer{
+    width:100%;
+    height: 700px;
+    background-image: Linear-gradient(to top,rgb(0,0,0),transparent 200%),url(../images/daan-evers-tKN1WXrzQ3s-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#tuio{
+  color:#717275;
+  
+   
+}
+.ft{
+    color:#FFFFFF;
+    font-size: 28px;
+    font-family: Montserrat,sans-serif;
+    font-weight:700;
+    position:relative;
+    top:-100px;
+}
+.fe{
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+    font-weight:400;
+    position:relative;
+    top:-50px;
+    color:#717275;
+}
+.f45{
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+    font-weight:400;
+    position:relative;
+    top:50px;
+    color:#717275;
+}
+.f24{
+    color:#FFFFFF;
+    font-size: 28px;
+    font-family: Montserrat,sans-serif;
+    font-weight:700;
+    position:relative;
+    top:-50px;
+}
+.f11{
+    color:#FFFFFF;
+    font-size: 28px;
+    font-family: Montserrat,sans-serif;
+    font-weight:700;
+    position:relative;
+    top:-50px;
+}
+.f23{
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+    font-weight:400;
+    position:relative;
+    top:50px;
+    color:#717275;
+}
+#cop{
+    color:#717275;
+}
+a.active{
+    color:#DC3545;
+}
+/* f */

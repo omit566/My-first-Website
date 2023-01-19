@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.body-2{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family:'Montserrat', sans-serif;
+}
+.btn{
+    width:200px;
+    height: 50px;
+    background-color: #DC3545;
+    color:#FFFFFF;
+    border: #DC3545;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight:600;
+    transition: 2s;
+}
+.btn:hover{
+    background-color: red;
+   
+    }
+.container{
+    display:flex;
+}
+.a-1{
+    width:25%;
+    height:100px;
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color:#000000;
+    font-size: 26px;
+    
+    
+    font-weight:900;
+}
+.a-2{
+    width:50%;
+    height:100px;
+   
+}
+.a-3{
+    width:25%;
+    height:100px;
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    line-height:100px;
+
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color:#717275;
+    font-size: 18px;
+    font-weight:600;
+}
+
+.btn:hover{
+    background-color: red;
+    border:1px solid red;
+    }
+    .btn{
+        width:200px;
+        height: 50px;
+        background-color: #DC3545;
+        color:#FFFFFF;
+        border: #DC3545;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight:600;
+        transition: 2s;
+    }    
+    .a-3{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }    
+
+    a.active{
+        color:#DC3545;
+    }
+ /* 1 */
+
+ /* 2 */
+
+ .container-1{
+    width:100%;
+    height:445px;
+    background-image:linear-gradient(to top,#000000,transparent 100%), url(../images/header/luisa-brimble-aFzg83dvnAI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .menu-1{
+    font-size:65px;
+    color:#FFFFFF;
+ }
+ .menu-p2{
+    font-size:20px;
+    color:#FFFFFF;
+    font-family:'Montserrat', sans-serif;
+ }
+ /* 2 */
+ .cv1{
+    position:relative;
+    left:20px; 
+    width:300px;
+    height:300px;
+    top:30px;
+}
+.cv2{
+    position:relative;
+    left:20px; 
+    width:300px;
+    height:300px;
+    top:30px;
+   
+}
+.cv3{
+    position:relative;
+    left:10px; 
+    width:300px;
+    height:300px;
+    top:30px;
+}
+.container-2{
+    display:flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:100px;
+   overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #F9F9F9;
+    height:500px;
+    
+}
+.ty{
+    color:#F3AF24;
+}
+
+.zzz{
+    display:flex;
+    gap:50px;
+    position:relative;
+    top:40px;
+    justify-content: space-evenly;
+}
+.dr{
+    font-size:40px;
+    font-weight: 700;
+    color:#000000;
+    font-family:'Montserrat', sans-serif;
+}
+.volt{
+color:#F3AF24;
+width:70px;
+height:50px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 34%;
+border:1px solid #FFFFFF;
+background-color: #FFFFFF;
+
+}
+.voltt{
+color:#717275;
+font-size:20px;
+font-family:'Montserrat', sans-serif;
+}
+
+/* 5 */
+.main{
+    width:100%;
+    height:100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top:100px;
+    position:relative;
+}
+.main-h2{
+color:#000000;
+font-size:45px;
+font-family:'Montserrat', sans-serif;
+font-weight: 900;
+background-color: #FFFFFF;
+position: relative;
+left:100px;
+top:50px;
+}
+/* 5 */
+/* 6 */
+.container-3{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    top:150px;
+   overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #FFFFFF;
+    bottom: 50px;;
+    width:100%;
+   
+    height:800px;
+   
+} 
+.cv12{
+    position:relative;
+   
+    width:550px;
+    height:450px;
+    top:30px;
+}
+.b-12{
+    width:50%;
+    height:auto;
+  
+    align-items: center;
+    position:relative;
+  text-align: center;
+}
+.cv123{
+    position:relative;
+   
+    width:550px;
+    height:450px;
+    top:30px;
+}
+.b-13{
+    width:50%;
+    height:auto;
+    
+    text-align: center;
+    position:relative;
+}
+/* 6 */
+.footer{
+    width:100%;
+    height: 700px;
+    background-image: Linear-gradient(to top,rgb(0,0,0),transparent 200%),url(../images/daan-evers-tKN1WXrzQ3s-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#tuio{
+  color:#717275;
+  
+   
+}
+.ft{
+    color:#FFFFFF;
+    font-size: 28px;
+    font-family: Montserrat,sans-serif;
+    font-weight:700;
+    position:relative;
+    top:-100px;
+}
+.fe{
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+    font-weight:400;
+    position:relative;
+    top:-50px;
+    color:#717275;
+}
+.f45{
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+    font-weight:400;
+    position:relative;
+    top:50px;
+    color:#717275;
+}
+.f24{
+    color:#FFFFFF;
+    font-size: 28px;
+    font-family: Montserrat,sans-serif;
+    font-weight:700;
+    position:relative;
+    top:-50px;
+}
+.f11{
+    color:#FFFFFF;
+    font-size: 28px;
+    font-family: Montserrat,sans-serif;
+    font-weight:700;
+    position:relative;
+    top:-50px;
+}
+.f23{
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+    font-weight:400;
+    position:relative;
+    top:50px;
+    color:#717275;
+}
+#cop{
+    color:#717275;
+}
+a.active{
+    color:#DC3545;
+}
+/* f */
